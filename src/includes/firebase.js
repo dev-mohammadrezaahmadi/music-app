@@ -11,8 +11,22 @@ import {
 	collection,
 	addDoc,
 	setDoc,
+	getDoc,
+	getDocs,
 	doc,
+	where,
+	query,
+	updateDoc,
+	deleteDoc,
 } from "firebase/firestore/lite";
+import {
+	getStorage,
+	ref,
+	uploadBytes,
+	uploadBytesResumable,
+	getDownloadURL,
+	deleteObject,
+} from "firebase/storage";
 
 const firebaseConfig = {
 	apiKey: `${process.env.VUE_APP_API_KEY}`,
@@ -31,13 +45,17 @@ initializeApp(firebaseConfig);
 
 const auth = getAuth();
 const db = getFirestore();
+const storage = getStorage();
 
-const userCollection = collection(db, "users");
+const usersCollection = collection(db, "users");
+const songsCollection = collection(db, "songs");
 
 export {
 	auth,
-	userCollection,
+	usersCollection,
+	songsCollection,
 	db,
+	storage,
 	createUserWithEmailAndPassword,
 	signInWithEmailAndPassword,
 	addDoc,
@@ -45,4 +63,15 @@ export {
 	setDoc,
 	updateProfile,
 	signOut,
+	ref,
+	uploadBytes,
+	uploadBytesResumable,
+	getDownloadURL,
+	where,
+	query,
+	getDoc,
+	getDocs,
+	updateDoc,
+	deleteObject,
+	deleteDoc,
 };
