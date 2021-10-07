@@ -33,211 +33,7 @@
 			</div>
 			<!-- Playlist -->
 			<ol id="playlist">
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition 
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition 
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition 
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition
-          duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
-				<li
-					class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-				>
-					<div>
-						<a href="#" class="font-bold block text-gray-600">Song Title</a>
-						<span class="text-gray-500 text-sm">Artist Name</span>
-					</div>
-
-					<div class="text-gray-600 text-lg">
-						<span class="comments">
-							<i class="fa fa-comments text-gray-600"></i>
-							15
-						</span>
-					</div>
-				</li>
+				<app-song-item v-for="song in songs" :key="song.docID" :song="song" />
 			</ol>
 			<!-- .. end Playlist -->
 		</div>
@@ -245,7 +41,89 @@
 </template>
 
 <script>
+import {
+	getDocs,
+	query,
+	songsCollection,
+	limit,
+	getDoc,
+	doc,
+	startAfter,
+	orderBy,
+} from "../includes/firebase";
+import AppSongItem from "../components/SongItem.vue";
 export default {
 	name: "Home",
+	components: {
+		AppSongItem,
+	},
+	data() {
+		return {
+			songs: [],
+			pendingRequest: false,
+			maxPerPage: 8,
+		};
+	},
+	async created() {
+		this.getSongs();
+
+		window.addEventListener("scroll", this.handleScroll);
+	},
+	beforeUnmount() {
+		window.removeEventListener("scroll", this.handleScroll);
+	},
+	methods: {
+		handleScroll() {
+			const { scrollTop, offsetHeight } = document.documentElement;
+			const { innerHeight } = window;
+			const bottomOfWindow =
+				Math.round(scrollTop) + innerHeight === offsetHeight;
+
+			if (bottomOfWindow) {
+				this.getSongs();
+			}
+		},
+
+		async getSongs() {
+			if (this.pendingRequest) {
+				return;
+			}
+
+			this.pendingRequest = true;
+
+			let snapshots;
+
+			if (this.songs.length) {
+				const lastDoc = await getDoc(
+					doc(songsCollection, this.songs[this.songs.length - 1].docID)
+				);
+				snapshots = await getDocs(
+					query(
+						songsCollection,
+						orderBy("modified_name"),
+						startAfter(lastDoc),
+						limit(this.maxPerPage)
+					)
+				);
+			} else {
+				snapshots = await getDocs(
+					query(
+						songsCollection,
+						orderBy("modified_name"),
+						limit(this.maxPerPage)
+					)
+				);
+			}
+
+			snapshots.forEach((document) => {
+				this.songs.push({
+					docID: document.id,
+					...document.data(),
+				});
+			});
+
+			this.pendingRequest = false;
+		},
+	},
 };
 </script>

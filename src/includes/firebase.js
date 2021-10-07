@@ -18,6 +18,9 @@ import {
 	query,
 	updateDoc,
 	deleteDoc,
+	limit,
+	startAfter,
+	orderBy,
 } from "firebase/firestore/lite";
 import {
 	getStorage,
@@ -49,11 +52,13 @@ const storage = getStorage();
 
 const usersCollection = collection(db, "users");
 const songsCollection = collection(db, "songs");
+const commentsCollection = collection(db, "comments");
 
 export {
 	auth,
 	usersCollection,
 	songsCollection,
+	commentsCollection,
 	db,
 	storage,
 	createUserWithEmailAndPassword,
@@ -74,4 +79,7 @@ export {
 	updateDoc,
 	deleteObject,
 	deleteDoc,
+	limit,
+	startAfter,
+	orderBy,
 };

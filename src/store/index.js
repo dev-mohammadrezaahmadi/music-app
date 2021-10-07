@@ -3,7 +3,7 @@ import {
 	auth,
 	createUserWithEmailAndPassword,
 	signInWithEmailAndPassword,
-	// userCollection,
+	// usersCollection,
 	// addDoc,
 	db,
 	doc,
@@ -43,7 +43,7 @@ export default createStore({
 				country: payload.country,
 			});
 
-			// await addDoc(userCollection, {
+			// await addDoc(usersCollection, {
 			// 	name: payload.name,
 			// 	email: payload.email,
 			// 	age: payload.age,

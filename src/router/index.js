@@ -3,6 +3,7 @@ import Home from "@/views/Home.vue";
 // import About from '@/views/About.vue';
 import Manage from "@/views/Manage.vue";
 import store from "@/store";
+import Song from "@/components/Song.vue";
 
 const routes = [
 	{
@@ -22,6 +23,11 @@ const routes = [
 		// 	console.log("Manage Route Guard");
 		// 	next();
 		// },
+	},
+	{
+		path: "/song/:id",
+		name: "Song",
+		component: Song,
 	},
 	{
 		path: "/manage",
