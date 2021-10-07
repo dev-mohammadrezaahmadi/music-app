@@ -133,14 +133,25 @@ export default {
 		};
 	},
 	methods: {
-		register() {
+		async register(values) {
 			this.register_show_alert = true;
 			this.register_in_submission = true;
 			this.register_alert_variant = "bg-blue-500";
 			this.register_show_alert = "Please wait! Your account is being created!";
 
+			try {
+				await this.$store.dispatch("register", values);
+			} catch (error) {
+				this.register_in_submission = false;
+				this.register_alert_variant = "bg-red-500";
+				this.register_alert_msg =
+					"An unexpcted error occured. Please try agin later.";
+				return;
+			}
+
 			this.register_alert_variant = "bg-green-500";
 			this.register_alert_msg = "Success! Your account has been created.";
+			window.location.reload();
 		},
 	},
 };
